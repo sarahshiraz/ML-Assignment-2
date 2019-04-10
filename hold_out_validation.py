@@ -21,7 +21,7 @@ def lr_schedule(epoch):
 
 batch_size = 256
 
-epochs = 50
+epochs = 20
 data_augmentation = True
 save_dir = os.path.join(os.getcwd(), 'saved_models1')
 model_name = 'keras_cifar10_trained_model.h5'
